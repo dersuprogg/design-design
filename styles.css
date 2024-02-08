@@ -28,11 +28,27 @@ select {
 .main-header {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 1.2rem 2.4rem;
+  padding: 2.4rem 3.6rem;
 }
 
 .main-header__heading {
   font-size: 3.6rem;
   font-style: italic;
   color: #fc6736;
+}
+
+.hero {
+  padding: 0 3.6rem;
+}
+
+.hero h2 {
+  font-size: 4.2rem;
+  line-height: 1.5;
+  margin-bottom: 2.4rem;
+  font-weight: normal;
+}
+
+.highlighted-word {
+  color: #0c2d57;
+  font-weight: bold;
 }
