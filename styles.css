@@ -87,3 +87,30 @@ img {
 .post__details p {
   font-size: 1.2rem;
 }
+
+@media (max-width: 650px) {
+  .post {
+    flex-direction: column;
+  }
+  .posts {
+    gap: 2.4rem;
+  }
+
+  .hero h2 {
+    font-size: 3srem;
+  }
+}
+
+@media (max-width: 480px) {
+  .posts {
+    grid-template-columns: 1fr;
+  }
+
+  .main-header__heading {
+    font-size: 2.8rem;
+  }
+
+  .hero h2 {
+    font-size: 3.2rem;
+  }
+}
