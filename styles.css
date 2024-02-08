@@ -25,6 +25,11 @@ select {
   font-family: inherit;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 .main-header {
   max-width: 120rem;
   margin: 0 auto;
@@ -51,4 +56,20 @@ select {
 .highlighted-word {
   color: #0c2d57;
   font-weight: bold;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.4rem;
+}
+
+.post {
+  display: flex;
+  gap: 2rem;
+}
+
+.post img,
+.post .post__details {
+  flex: 1;
 }
